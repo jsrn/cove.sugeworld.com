@@ -1,0 +1,227 @@
+<STYLE  TYPE="text/css"> 
+
+A:link { text-decoration: none; color:#000000 }
+A:visited { text-decoration: none; color:#000000 }
+A:active { text-decoration: none; color:#000000 }
+A:hover { text-decoration: none; color:#000000 }
+
+body{
+background-image: url('bocimages/grassbg.gif');
+background-repeat: repeat
+}
+
+ 
+ .gtitre  {
+ 	font-size : 22px;
+ 	line-height : 50px;
+ 	margin-left : 20px;
+ 	font-family : Arial;
+ 	font-weight : bold;
+ 	font-style : normal;
+ 	text-indent : +50px;
+ 	text-align : center;
+ 	text-decoration : overline;
+ 	margin-bottom : +20px;
+; color: #663300
+ }
+ 
+ .titre  {
+        color : #000000; 	
+        font-size : 12pt;
+ 	font-family : Times New Roman;
+ 	font-weight : bold;
+ 	font-style : normal;
+ 	text-align : left;
+ 	margin-top : 5px;
+ }
+ 
+ .texte  {
+        color : #DFE1E2; 	
+        font-size : 12pt;
+ 	font-family : Times New Roman;
+ 	font-weight : normal;
+ 	font-style : normal;
+ 	text-align : left;
+ 	margin-top : 5px;
+}
+ 
+
+ .background  {
+ 	font-size : 8pt;
+ 	font-family : Arial;
+ 	font-weight : normal;
+ 	font-style : normal;
+ 	text-align : left;
+ 	margin-top : 5px;
+ }
+
+ .soustexte  {
+ 	font-size : 14px;
+ 	font-family : Arial;
+ 	font-weight : normal;
+ 	font-style : normal;
+ 	text-align : left;
+ 	margin-top : 5px;
+ }
+ 
+ .soustexteb  {
+ 	font-size : 12px;
+ 	font-family : Arial;
+ 	font-weight : normal;
+ 	font-style : normal;
+ 	margin-left : 10px;
+ 	text-align : left;
+ 	color : White;
+ }
+ 
+ .name  {
+ 	color : #000000;
+ 	font-size : 15px;
+ 	font-family : Arial;
+ 	visibility : visible;
+ 	font-style : italic;
+ 	font-weight : bold;
+ }
+ 
+ .author  {
+ 	color : #000000;
+ 	font-size : 10px;
+ 	font-family : Arial;
+ 	visibility : visible;
+ 	font-style : italic;
+ }
+ 
+ .description  {
+ 	color : #000000;
+ 	font-size : 10px;
+ 	font-family : Arial;
+ 	visibility : visible;
+ }
+ 
+ .type  {
+ 	color : #0000ff;
+ 	font-size : 10px;
+ 	font-family : Arial;
+ 	visibility : visible;
+ 	font-weight : bold;
+ }
+ 
+ .INT  {
+ 	color : #0000ff;
+ 	font-size : 10px;
+ 	font-family : Arial;
+ 	visibility : visible;
+ 	font-weight : bold;
+ 	text-transform : uppercase;
+ }
+ 
+ .ego  {
+ 	color : #0000ff;
+ 	font-size : 10px;
+ 	font-family : Arial;
+ 	visibility : visible;
+ 	font-weight : bold;
+ 	text-transform : uppercase;
+ }
+ 
+ .alignment  {
+ 	color : #ff0000;
+ 	font-size : 10px;
+ 	font-family : Arial;
+ 	visibility : visible;
+ }
+ 
+ .communication  {
+ 	color : #0000ff;
+ 	font-size : 10px;
+ 	font-family : Arial;
+ 	visibility : visible;
+ }
+ 
+ .primary  {
+ 	color : #008000;
+ 	font-size : 10px;
+ 	font-family : Arial;
+ 	font-weight : bold;
+ 	font-style : normal;
+ 	text-align : left;
+ 	margin-top : 5px;
+ }
+ 
+ .minor  {
+ 	color : #808000;
+ 	font-size : 10px;
+ 	font-family : Arial;
+ 	font-weight : bold;
+ 	font-style : normal;
+ 	text-align : left;
+ 	margin-top : 5px;
+ }
+ 
+ .major  {
+ 	color : #800000;
+ 	font-size : 10px;
+ 	font-family : Arial;
+ 	font-weight : bold;
+ 	font-style : normal;
+ 	text-align : left;
+ 	margin-top : 5px;
+ }
+ 
+ .special  {
+ 	color : #000080;
+ 	font-size : 10px;
+ 	font-family : Arial;
+ 	font-weight : bold;
+ 	font-style : normal;
+ 	text-align : left;
+ 	margin-top : 5px;
+ }
+ 
+ .index  {
+        color : #000000;
+ 	font-size : 12pt;
+ 	font-family : Times New Roman;
+ 	font-weight : normal;
+ 	font-style : bold;
+ 	text-align : left;
+ 	margin-top : 0px;
+ }
+ 
+ .notes  {
+color : #DFE1E2;
+ 	font-size : 13pt;
+ 	font-family : Times New Roman;
+ 	font-weight : normal;
+ 	font-style : normal;
+ 	text-align : left;
+ 	margin-top : 5px;
+ }
+ 
+ .xp  {
+ 	color : #0000ff;
+ 	font-size : 10px;
+ 	font-family : Arial;
+ 	font-weight : bold;
+ 	font-style : normal;
+ 	text-align : left;
+ 	margin-top : 5px;
+ }
+ 
+ .cost  {
+ 	color : #0000ff;
+ 	font-size : 10px;
+ 	font-family : Arial;
+ 	font-weight : bold;
+ 	font-style : normal;
+ 	text-align : left;
+ 	margin-top : 5px;
+ }
+
+.texteM { font-size : 8pt; font-family : Arial; font-weight : bold; font-style : normal; text-align : left; margin-top : 5px; ; color: #663300}
+.texteP { font-size : 7pt; font-family : Arial; font-style : normal; text-align : left; margin-top : 5px; ; color: #000000}
+
+.texteMenu { font-size : 10pt; font-family : Arial; font-weight : bold; font-style : normal; text-align : left; margin-top : 5px; ; color: #663300}
+
+ -->
+ </STYLE>
