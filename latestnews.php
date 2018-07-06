@@ -11,15 +11,9 @@ include_once "bbcode.php";
 
 include_once "secrets.php";
 
-$charset = 'utf8mb4';
-
-$dsn = "mysql:host=$host;dbname=$db;charset=$charset";
-$opt = [
-    PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
-    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
-    PDO::ATTR_EMULATE_PREPARES   => false,
-];
-$pdo = new PDO($dsn, $user, $pass, $opt);
+$dsn = "mysql:host=$host;dbname=$db;";
+$pdo = new PDO($dsn, $user, $pass);
+$pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
 
 $stmt = $pdo->query("SELECT * FROM `smf_messages` WHERE `ID_BOARD` = 8 GROUP BY ID_TOPIC ORDER BY postertime DESC LIMIT 20");
 
