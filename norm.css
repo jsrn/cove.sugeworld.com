@@ -228,3 +228,7 @@ color : #DFE1E2;
 .content-table td {
 	padding: 2px;
 }
+
+h3 {
+	text-decoration: underline;
+}
