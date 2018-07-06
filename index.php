@@ -1,5 +1,10 @@
 <HTML>
-<HEAD>
+<head>
+	<title>The Baronship of Cove</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="One of Ultima Online's best and most established roleplaying guilds. Join the adventure for free!">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
   <SCRIPT>
 function tale_window(strURL) {
  window.open(strURL,'scrollframe','width=900,height=600,scrollbars,menubar=no,status=no');
@@ -14,10 +19,9 @@ A:visited { text-decoration: none; color:#000000 }
 A:active { text-decoration: none; color:#000000 }
 A:hover { text-decoration: none; color:#000000 }
 </STYLE>
-  <TITLE>The Baronship of Cove</TITLE>
   <LINK REL=STYLESHEET HREF="norm.css" TYPE="text/css">
   <link rel="shortcut icon" href="bocimages/favicon.ico">
-</HEAD>
+</head>
 <BODY bgcolor="#0C5003" background="bocimages/grassbg.gif" topmargin="0"
 bottommargin="0" LINK="#000000" VLINK="#000000" ALINK="#000000">
 <P>
