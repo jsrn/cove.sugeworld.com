@@ -4,6 +4,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="description" content="One of Ultima Online's best and most established roleplaying guilds. Join the adventure for free!">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="uo,europa,roleplay,roleplaying,rp,rpg,mmo,moorpg,ultima,ultima online,uorp">
 
   <SCRIPT>
 function tale_window(strURL) {
