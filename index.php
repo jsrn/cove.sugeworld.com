@@ -13,12 +13,7 @@ function tale_music(strURL) {
 	window.open(strURL,'scrollframe','width=100,height=50,scrollbars,menubar=no,status=no');
 }
 </SCRIPT>
-  <STYLE>
-A:link { text-decoration: none; color:#000000 }
-A:visited { text-decoration: none; color:#000000 }
-A:active { text-decoration: none; color:#000000 }
-A:hover { text-decoration: none; color:#000000 }
-</STYLE>
+
   <LINK REL=STYLESHEET HREF="norm.css" TYPE="text/css">
   <link rel="shortcut icon" href="bocimages/favicon.ico">
 </head>
