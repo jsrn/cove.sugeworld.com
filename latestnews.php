@@ -1,7 +1,7 @@
 <TABLE BORDER CELLPADDING="0" background="bocimages/scrollbgdark.gif" width="100%">
 	<TR>
 	<!-- Header or whatever -->
-	<center><IMG SRC="bocimages/largebanner.png"><BR></center>
+	<center><a href="https://discord.gg/DUKQRXf" target="_blank"><IMG SRC="bocimages/largebanner.png" border="0"></a><BR></center>
 		<TD valign="top" class="notes">
 
 
