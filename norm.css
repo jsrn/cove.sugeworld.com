@@ -220,3 +220,11 @@ color : #DFE1E2;
 .texteP { font-size : 7pt; font-family : Arial; font-style : normal; text-align : left; margin-top : 5px; ; color: #000000}
 
 .texteMenu { font-size : 10pt; font-family : Arial; font-weight : bold; font-style : normal; text-align : left; margin-top : 5px; ; color: #663300}
+
+.content-table {
+	color: #DFE1E2;
+}
+
+.content-table td {
+	padding: 2px;
+}
