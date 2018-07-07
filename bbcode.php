@@ -365,7 +365,7 @@ function parsecode(&$message)
 			'~\[quote\](?:<br />)?~i' => isset($disabled['quote']) ? '<div>' : '<div class="quoteheader">' . $txt['smf240'] . '</div><div class="quote">',
 			'~\[/quote\](?:<br />)?~i' => isset($disabled['quote']) ? '</div>' : '</div>',
 			// An image.  Width and height can be are optional.
-			'~\[img(\s+width=([\d]+))?(\s+height=([\d]+))?\s*\](?:<br />)*(.+?)(?:<br />)*\[/img\]~i' => isset($disabled['img']) ? '\'$5\'' : '\'<img src="$5" alt=""\' . (\'$2\' != \'\' ? \' width="$2"\' : \'\') . (\'$4\' != \'\' ? \' height="$4"\' : \'\') . \' border="0" />\'',
+			'~\[img(\s+width=([\d]+))?(\s+height=([\d]+))?\s*\](?:<br />)*(.+?)(?:<br />)*\[/img\]~i' => isset($disabled['img']) ? '\'$5\'' : '<img src="$5" alt=""\' . (\'$2\' != \'\' ? \' width="$2"\' : \'\') . (\'$4\' != \'\' ? \' height="$4"\' : \'\') . \' border="0" />',
 			// Size the font.  [size=large]HELLO![/size]
 			'~\[size=([\d]{1,2}p[xt]|(?:x-)?small(?:er)?|(?:x-)?large[r]?)\](.+?)\[/size\]~i' => isset($disabled['size']) ? '$2' : '<span style="font-size: $1;">$2</span>',
 			'~\[size=([\d])\](.+?)\[/size\]~i' => isset($disabled['size']) ? '$2' : '<font size="$1">$2</font>',
