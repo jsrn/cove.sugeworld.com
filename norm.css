@@ -88,14 +88,7 @@ background-repeat: repeat
  	visibility : visible;
  	font-style : italic;
  }
- 
- .description  {
- 	color : #000000;
- 	font-size : 10px;
- 	font-family : Arial;
- 	visibility : visible;
- }
- 
+  
  .type  {
  	color : #0000ff;
  	font-size : 10px;
@@ -239,4 +232,51 @@ h3 {
 	padding: 5px;
 	border: ridge 4px #666;
 	background: url('bocimages/scrollbgdark.gif');
+}
+
+
+.achievement-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.achievement-list img {
+    max-width: 100%;
+}
+
+.achievement-list .title,
+.achievement-list .description,
+.achievement-list .quantities {
+    display: block;
+}
+
+.achievement-list .title {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.achievement-list .description {
+    margin: 5px 0;
+}
+
+.achievement-list .quantities {
+    font-style: italic;
+    color: #666666;
+}
+
+.achievement-list h3 {
+    margin-top: 50px;
+}
+
+.achievement-list .bronze {
+    color: #795548;
+}
+
+.achievement-list .silver {
+    color: #ECEFF1;
+}
+
+.achievement-list .gold {
+    color: #FFCA28;
 }
