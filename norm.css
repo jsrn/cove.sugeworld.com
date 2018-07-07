@@ -262,7 +262,7 @@ h3 {
 
 .achievement-list .quantities {
     font-style: italic;
-    color: #666666;
+    color: #333;
 }
 
 .achievement-list h3 {
@@ -270,7 +270,7 @@ h3 {
 }
 
 .achievement-list .bronze {
-    color: #795548;
+    color: #f59877;
 }
 
 .achievement-list .silver {
