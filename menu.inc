@@ -52,8 +52,8 @@
 			  <img WIDTH="19" HEIGHT="13" SRC="bocimages/pointer.gif">
 			  <A href="index.php?page=achievements">Achievements</A><BR>
 		      <IMG WIDTH="19" HEIGHT="13" SRC="bocimages/pointer.gif">
-		      <A href="JavaScript:tale_window('http://cove.sugeworld.com/forum/index.php?topic=14670.0')">OOC Rules</A><BR>
+		      <A href="http://cove.sugeworld.com/forum/index.php?topic=14670.0">OOC Rules</A><BR>
 		      <IMG WIDTH="19" HEIGHT="13" SRC="bocimages/pointer.gif">
-		      <A href="JavaScript:tale_window('http://cove.sugeworld.com/forum/index.php?topic=10109.0')">Diplomacy</A><BR>
+		      <A href="http://cove.sugeworld.com/forum/index.php?topic=10109.0">Diplomacy</A><BR>
 		      <IMG WIDTH="19" HEIGHT="13" SRC="bocimages/pointer.gif">
 		      <A href="index.php?page=links">Tome References</A><BR></B></td></tr></table>
