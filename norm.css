@@ -232,3 +232,11 @@ color : #DFE1E2;
 h3 {
 	text-decoration: underline;
 }
+
+.middle-content-container {
+	color : #DFE1E2;
+	font-size : 13pt;
+	padding: 5px;
+	border: ridge 4px #666;
+	background: url('bocimages/scrollbgdark.gif');
+}
