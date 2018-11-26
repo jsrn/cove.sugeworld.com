@@ -1,4 +1,4 @@
-<center><a href="https://discord.gg/DUKQRXf" target="_blank"><IMG SRC="bocimages/largebanner.png"></a></center>
+<center><a href="https://discord.gg/DUKQRXf" target="_blank"><IMG SRC="bocavamassbot.jpg"></a></center>
 
 <div class="middle-content-container">
 	<?php
