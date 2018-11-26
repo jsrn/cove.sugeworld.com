@@ -24,7 +24,7 @@ bottommargin="0" LINK="#000000" VLINK="#000000" ALINK="#000000">
 <?php include("eggs.inc"); ?>
 <!--- The Roads are no longer safe. Losis Rederic, Endless Rogue --->
 <DIV align="center">
-  <IMG SRC="bocimages/boctopavamass.jpg" WIDTH=973 HEIGHT=128 BORDER=0 ALT="" USEMAP="#boctop1_Map"><BR>
+  <IMG SRC="boctopavamass.jpg" WIDTH=973 HEIGHT=128 BORDER=0 ALT="" USEMAP="#boctop1_Map"><BR>
   <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="973">
     <TR>
       <TD width="224" background="bocimages/contside.gif" valign="top"><TABLE border="0"
